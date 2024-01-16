@@ -17,8 +17,8 @@ This repository contains a TypeScript implementation of the classic bubble sort 
 To use this repository, clone it to your local machine and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jmacera95/bubble-sort-algorithm.git
+cd bubble-sort-algorithm
 npm install
 
 ```
