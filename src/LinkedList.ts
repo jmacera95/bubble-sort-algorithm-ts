@@ -1,4 +1,4 @@
-import { Sortable } from "./Sorter";
+import { Sorter } from "./Sorter";
 
 class LinkedListNode {
   next: LinkedListNode | null = null;
@@ -6,8 +6,10 @@ class LinkedListNode {
   constructor(public data: number) {}
 }
 
-export class LinkedList implements Sortable {
+export class LinkedList extends Sorter {
   head: LinkedListNode | null = null;
+
+  // we don't have to call super since we don't use constructor and super it's automatically implemented in such scenario
 
   add(data: number): void {
     const node = new LinkedListNode(data);

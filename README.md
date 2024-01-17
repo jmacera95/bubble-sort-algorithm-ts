@@ -9,7 +9,7 @@ This repository contains a TypeScript implementation of the classic bubble sort 
 ## Features
 
 - 🚀 **Bubble Sort Algorithm:** A robust and extendable bubble sort implementation.
-- 🔄 **Sortable Interface:** A `Sortable` interface to standardize the implementation across different types.
+- 🔄 **Sorter Abstract Class:** A `Sorter` abstract class to standardize the implementation across different types.
 - 📚 **Supported Types:** Implementations for sorting strings, number collections, and linked lists.
 
 ## Getting Started
